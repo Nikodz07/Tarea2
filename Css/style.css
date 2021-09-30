@@ -1,0 +1,109 @@
+body{
+background: #bdc3c7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #bdc3c7, #2c3e50); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #bdc3c7, #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+h1 {
+    color: white;
+    background-color: black;
+    width: 98%;
+    z-index: 7;
+    background-position: center;
+    position: relative; 
+    font-size: 20px;
+    font-weight: 300;
+    padding: 5px 15px;
+    border-radius: 15px;
+    transition: all 0.5s ease;
+    text-align: center;
+}
+.flexcenter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+.flexcenter div{
+    display: flex;
+    flex-direction: column;
+}
+h3  {
+    color: blueviolet;
+}
+
+h4 {
+    color: red; 
+    font-weight: bold;
+}
+#sumando1{
+    background-color: lightblue;
+}
+#sumando2{
+    background-color: lightblue; 
+}
+#restar1{
+    background-color:coral;
+}
+#restar2{
+    background-color:coral;
+}
+#multiplicar1{
+    background-color:gray;
+}
+#multiplicar2{
+    background-color: gray;
+}
+#dividir1{
+    background-color: springgreen;
+}
+#dividir2{
+    background-color:springgreen;
+}
+#resultadoSuma{
+    color:black ;
+    font-weight:bold;
+}
+#resultadoResta{
+    color:black ;
+    font-weight:bold;
+}
+#resultadoMultiplicacion{
+    color:black ;
+    font-weight:bold;
+}
+#resultadoDivision{
+    color:black ;
+    font-weight:bold;
+}
+.centrado{
+    width: 60%;
+    margin: 0 auto;
+}
+    div #numero1{
+    background-color: lightgreen;
+    width: 40%;
+    padding: 10px 0;
+}
+div #operacion{
+    background-color: cornflowerblue;
+    width: 15%;
+    padding: 10px 0;
+}
+div #numero2{
+    background-color: lightgreen;
+    width: 40%;
+    padding: 10px 0;
+}
+
+
+.centrado .boton{
+    display: flex;
+    justify-content:right;
+    margin-top: 10px;
+    
+}
+.boton button{
+    padding: 10px;
+    text-transform: uppercase;
+}
